@@ -1,0 +1,17 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{csvsimple}
+\usepackage{caption}
+\usepackage{longtable}
+
+\begin{document}
+
+\csvautobooklongtable[
+	table head={%
+	\toprule
+		\bfseries Name &\bfseries ID \\
+	\midrule},
+	table foot={\\\bottomrule}]%
+	{sample-data.csv}
+	
+\end{document}

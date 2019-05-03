@@ -1,0 +1,18 @@
+\documentclass{article}
+\usepackage{csvsimple}
+\usepackage{longtable}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{caption}
+
+\newcommand\ColorID[1]{\ifnum#1>6\color{red}\textbf{#1}\else#1 $<$\fi}
+
+\begin{document}
+
+\csvreader[head to column names,longtable=ll,
+           table head={\toprule\bfseries Name &\bfseries ID \\ \midrule},
+           table foot={\\\bottomrule}
+          ]{sample-data.csv}{}
+	{\csvcoli &\ColorID\csvcolii}
+\end{document}
+
