@@ -72,6 +72,16 @@ file:close()
 		 for ii,kk in pairs(k["subsection"]) do
 		 	tex.print ("\string\\subsection{" .. kk.title .. "}")
 		 	tex.print ("some text here")
+			tex.print("\string\\newline")
+			for iii, kkk in pairs(kk["content"]) do
+				if kkk['type'] == "text" then
+					tex.print(kkk["line"])
+					tex.print("\string\\newline")
+				elseif kkk["type"] == "table" then
+					tex.print("TABLE HERE")
+					tex.print("\string\\newline")
+				end
+			end
 		 end
 	end
 }

@@ -18,7 +18,8 @@
     "tableOfContents": [
       {
         "section": {
-          "title": "Actives Limit Calculations"
+          "title": "Actives Limit Calculations",
+          "text": "This is section text"
         },
         "subsection": [
           {
@@ -94,29 +95,365 @@
           },
           {
             "id": "Pr2",
-            "title": "Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg (Pr2)"
+            "title": "Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg (Pr2)",
+            "content": [
+              {
+                "type": "text",
+                "line": "Worst SAL: 0.725 mg/sqcm"
+              },
+              {
+                "type": "text",
+                "line": "Next Production: Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg (Pr2)"
+              },
+              {
+                "type": "text",
+                "line": "Next PSwab Limit: 1813.458 ppm Swab Area: 25 sqcm Swab Volume: 10 ml"
+              },
+              {
+                "type": "table",
+                "title": "",
+                "columns": [
+                  {
+                    "name": "Previous API(A)",
+                    "values": [
+                      "1",
+                      "2",
+                      "3",
+                      "4"
+                    ]
+                  },
+                  {
+                    "name": "Next Production",
+                    "values": [
+                      "Pr2",
+                      "Pr3",
+                      "Pr4",
+                      "Pr5"
+                    ]
+                  },
+                  {
+                    "name": "ID (B)",
+                    "values": [
+                      "Pr2",
+                      "Pr3",
+                      "Pr4",
+                      "Pr5"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Shared Area Calculation for Pr1 and Pr2",
+                "columns": [
+                  {
+                    "name": "Equipment",
+                    "values": [
+                      "Scoop (DAPR009)",
+                      "Scoop (DAWH001)"
+                    ]
+                  },
+                  {
+                    "name": "Largest Surface Area",
+                    "values": [
+                      "300",
+                      "300"
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": "Pr3",
-            "title": "Telmisartan Tablets 20 mg 40 mg and 80 mg (Pr3)"
+            "title": "Telmisartan Tablets 20 mg 40 mg and 80 mg (Pr3)",
+            "content": [
+              {
+                "type": "text",
+                "line": "Worst SAL: 0.725 mg/sqcm"
+              },
+              {
+                "type": "text",
+                "line": "Next Production: Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg (Pr2)"
+              },
+              {
+                "type": "text",
+                "line": "Next PSwab Limit: 1813.458 ppm Swab Area: 25 sqcm Swab Volume: 10 ml"
+              },
+              {
+                "type": "table",
+                "title": "",
+                "columns": [
+                  {
+                    "name": "Previous API(A)",
+                    "values": [
+                      "1",
+                      "2",
+                      "3",
+                      "4"
+                    ]
+                  },
+                  {
+                    "name": "Next Production",
+                    "values": [
+                      "Pr2",
+                      "Pr3",
+                      "Pr4",
+                      "Pr5"
+                    ]
+                  },
+                  {
+                    "name": "ID (B)",
+                    "values": [
+                      "Pr2",
+                      "Pr3",
+                      "Pr4",
+                      "Pr5"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Shared Area Calculation for Pr1 and Pr2",
+                "columns": [
+                  {
+                    "name": "Equipment",
+                    "values": [
+                      "Scoop (DAPR009)",
+                      "Scoop (DAWH001)"
+                    ]
+                  },
+                  {
+                    "name": "Largest Surface Area",
+                    "values": [
+                      "300",
+                      "300"
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": "Pr4",
-            "title": "Rosuvastatin Calcium Tablets 5 mg 10 mg 20 mg and 40 mg (Pr4)"
+            "title": "Rosuvastatin Calcium Tablets 5 mg 10 mg 20 mg and 40 mg (Pr4)",
+            "content": [
+              {
+                "type": "text",
+                "line": "Worst SAL: 0.725 mg/sqcm"
+              },
+              {
+                "type": "text",
+                "line": "Next Production: Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg (Pr2)"
+              },
+              {
+                "type": "text",
+                "line": "Next PSwab Limit: 1813.458 ppm Swab Area: 25 sqcm Swab Volume: 10 ml"
+              },
+              {
+                "type": "table",
+                "title": "",
+                "columns": [
+                  {
+                    "name": "Previous API(A)",
+                    "values": [
+                      "1",
+                      "2",
+                      "3",
+                      "4"
+                    ]
+                  },
+                  {
+                    "name": "Next Production",
+                    "values": [
+                      "Pr2",
+                      "Pr3",
+                      "Pr4",
+                      "Pr5"
+                    ]
+                  },
+                  {
+                    "name": "ID (B)",
+                    "values": [
+                      "Pr2",
+                      "Pr3",
+                      "Pr4",
+                      "Pr5"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Shared Area Calculation for Pr1 and Pr2",
+                "columns": [
+                  {
+                    "name": "Equipment",
+                    "values": [
+                      "Scoop (DAPR009)",
+                      "Scoop (DAWH001)"
+                    ]
+                  },
+                  {
+                    "name": "Largest Surface Area",
+                    "values": [
+                      "300",
+                      "300"
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": "Pr5",
-            "title": "Pregabalin Capsules 25 mg 50 mg 75 mg 100 mg 150 mg 200 mg 225 mg and 300 mg (Pr5)"
+            "title": "Pregabalin Capsules 25 mg 50 mg 75 mg 100 mg 150 mg 200 mg 225 mg and 300 mg (Pr5)",
+            "content": [
+              {
+                "type": "text",
+                "line": "Worst SAL: 0.725 mg/sqcm"
+              },
+              {
+                "type": "text",
+                "line": "Next Production: Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg (Pr2)"
+              },
+              {
+                "type": "text",
+                "line": "Next PSwab Limit: 1813.458 ppm Swab Area: 25 sqcm Swab Volume: 10 ml"
+              },
+              {
+                "type": "table",
+                "title": "",
+                "columns": [
+                  {
+                    "name": "Previous API(A)",
+                    "values": [
+                      "1",
+                      "2",
+                      "3",
+                      "4"
+                    ]
+                  },
+                  {
+                    "name": "Next Production",
+                    "values": [
+                      "Pr2",
+                      "Pr3",
+                      "Pr4",
+                      "Pr5"
+                    ]
+                  },
+                  {
+                    "name": "ID (B)",
+                    "values": [
+                      "Pr2",
+                      "Pr3",
+                      "Pr4",
+                      "Pr5"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Shared Area Calculation for Pr1 and Pr2",
+                "columns": [
+                  {
+                    "name": "Equipment",
+                    "values": [
+                      "Scoop (DAPR009)",
+                      "Scoop (DAWH001)"
+                    ]
+                  },
+                  {
+                    "name": "Largest Surface Area",
+                    "values": [
+                      "300",
+                      "300"
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": "Pr6",
-            "title": "Test Product (Pr6)"
+            "title": "Test Product (Pr6)",
+            "content": [
+              {
+                "type": "text",
+                "line": "Worst SAL: 0.725 mg/sqcm"
+              },
+              {
+                "type": "text",
+                "line": "Next Production: Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg (Pr2)"
+              },
+              {
+                "type": "text",
+                "line": "Next PSwab Limit: 1813.458 ppm Swab Area: 25 sqcm Swab Volume: 10 ml"
+              },
+              {
+                "type": "table",
+                "title": "",
+                "columns": [
+                  {
+                    "name": "Previous API(A)",
+                    "values": [
+                      "1",
+                      "2",
+                      "3",
+                      "4"
+                    ]
+                  },
+                  {
+                    "name": "Next Production",
+                    "values": [
+                      "Pr2",
+                      "Pr3",
+                      "Pr4",
+                      "Pr5"
+                    ]
+                  },
+                  {
+                    "name": "ID (B)",
+                    "values": [
+                      "Pr2",
+                      "Pr3",
+                      "Pr4",
+                      "Pr5"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Shared Area Calculation for Pr1 and Pr2",
+                "columns": [
+                  {
+                    "name": "Equipment",
+                    "values": [
+                      "Scoop (DAPR009)",
+                      "Scoop (DAWH001)"
+                    ]
+                  },
+                  {
+                    "name": "Largest Surface Area",
+                    "values": [
+                      "300",
+                      "300"
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
       {
         "section": {
-          "title": "Cleaning Agent Limit Calculations"
+          "title": "Cleaning Agent Limit Calculations",
+          "text": "This is section text"
         },
         "subsection": [
           {
@@ -192,23 +529,358 @@
           },
           {
             "id": "Pr2",
-            "title": "Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg (Pr2)"
+            "title": "Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg (Pr2)",
+            "content": [
+              {
+                "type": "text",
+                "line": "Worst SAL: 0.725 mg/sqcm"
+              },
+              {
+                "type": "text",
+                "line": "Next Production: Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg (Pr2)"
+              },
+              {
+                "type": "text",
+                "line": "Next PSwab Limit: 1813.458 ppm Swab Area: 25 sqcm Swab Volume: 10 ml"
+              },
+              {
+                "type": "table",
+                "title": "",
+                "columns": [
+                  {
+                    "name": "Previous API(A)",
+                    "values": [
+                      "1",
+                      "2",
+                      "3",
+                      "4"
+                    ]
+                  },
+                  {
+                    "name": "Next Production",
+                    "values": [
+                      "Pr2",
+                      "Pr3",
+                      "Pr4",
+                      "Pr5"
+                    ]
+                  },
+                  {
+                    "name": "ID (B)",
+                    "values": [
+                      "Pr2",
+                      "Pr3",
+                      "Pr4",
+                      "Pr5"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Shared Area Calculation for Pr1 and Pr2",
+                "columns": [
+                  {
+                    "name": "Equipment",
+                    "values": [
+                      "Scoop (DAPR009)",
+                      "Scoop (DAWH001)"
+                    ]
+                  },
+                  {
+                    "name": "Largest Surface Area",
+                    "values": [
+                      "300",
+                      "300"
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": "Pr3",
-            "title": "Telmisartan Tablets 20 mg 40 mg and 80 mg (Pr3)"
+            "title": "Telmisartan Tablets 20 mg 40 mg and 80 mg (Pr3)",
+            "content": [
+              {
+                "type": "text",
+                "line": "Worst SAL: 0.725 mg/sqcm"
+              },
+              {
+                "type": "text",
+                "line": "Next Production: Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg (Pr2)"
+              },
+              {
+                "type": "text",
+                "line": "Next PSwab Limit: 1813.458 ppm Swab Area: 25 sqcm Swab Volume: 10 ml"
+              },
+              {
+                "type": "table",
+                "title": "",
+                "columns": [
+                  {
+                    "name": "Previous API(A)",
+                    "values": [
+                      "1",
+                      "2",
+                      "3",
+                      "4"
+                    ]
+                  },
+                  {
+                    "name": "Next Production",
+                    "values": [
+                      "Pr2",
+                      "Pr3",
+                      "Pr4",
+                      "Pr5"
+                    ]
+                  },
+                  {
+                    "name": "ID (B)",
+                    "values": [
+                      "Pr2",
+                      "Pr3",
+                      "Pr4",
+                      "Pr5"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Shared Area Calculation for Pr1 and Pr2",
+                "columns": [
+                  {
+                    "name": "Equipment",
+                    "values": [
+                      "Scoop (DAPR009)",
+                      "Scoop (DAWH001)"
+                    ]
+                  },
+                  {
+                    "name": "Largest Surface Area",
+                    "values": [
+                      "300",
+                      "300"
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": "Pr4",
-            "title": "Rosuvastatin Calcium Tablets 5 mg 10 mg 20 mg and 40 mg (Pr4)"
+            "title": "Rosuvastatin Calcium Tablets 5 mg 10 mg 20 mg and 40 mg (Pr4)",
+            "content": [
+              {
+                "type": "text",
+                "line": "Worst SAL: 0.725 mg/sqcm"
+              },
+              {
+                "type": "text",
+                "line": "Next Production: Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg (Pr2)"
+              },
+              {
+                "type": "text",
+                "line": "Next PSwab Limit: 1813.458 ppm Swab Area: 25 sqcm Swab Volume: 10 ml"
+              },
+              {
+                "type": "table",
+                "title": "",
+                "columns": [
+                  {
+                    "name": "Previous API(A)",
+                    "values": [
+                      "1",
+                      "2",
+                      "3",
+                      "4"
+                    ]
+                  },
+                  {
+                    "name": "Next Production",
+                    "values": [
+                      "Pr2",
+                      "Pr3",
+                      "Pr4",
+                      "Pr5"
+                    ]
+                  },
+                  {
+                    "name": "ID (B)",
+                    "values": [
+                      "Pr2",
+                      "Pr3",
+                      "Pr4",
+                      "Pr5"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Shared Area Calculation for Pr1 and Pr2",
+                "columns": [
+                  {
+                    "name": "Equipment",
+                    "values": [
+                      "Scoop (DAPR009)",
+                      "Scoop (DAWH001)"
+                    ]
+                  },
+                  {
+                    "name": "Largest Surface Area",
+                    "values": [
+                      "300",
+                      "300"
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": "Pr5",
-            "title": "Pregabalin Capsules 25 mg 50 mg 75 mg 100 mg 150 mg 200 mg 225 mg and 300 mg (Pr5)"
+            "title": "Pregabalin Capsules 25 mg 50 mg 75 mg 100 mg 150 mg 200 mg 225 mg and 300 mg (Pr5)",
+            "content": [
+              {
+                "type": "text",
+                "line": "Worst SAL: 0.725 mg/sqcm"
+              },
+              {
+                "type": "text",
+                "line": "Next Production: Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg (Pr2)"
+              },
+              {
+                "type": "text",
+                "line": "Next PSwab Limit: 1813.458 ppm Swab Area: 25 sqcm Swab Volume: 10 ml"
+              },
+              {
+                "type": "table",
+                "title": "",
+                "columns": [
+                  {
+                    "name": "Previous API(A)",
+                    "values": [
+                      "1",
+                      "2",
+                      "3",
+                      "4"
+                    ]
+                  },
+                  {
+                    "name": "Next Production",
+                    "values": [
+                      "Pr2",
+                      "Pr3",
+                      "Pr4",
+                      "Pr5"
+                    ]
+                  },
+                  {
+                    "name": "ID (B)",
+                    "values": [
+                      "Pr2",
+                      "Pr3",
+                      "Pr4",
+                      "Pr5"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Shared Area Calculation for Pr1 and Pr2",
+                "columns": [
+                  {
+                    "name": "Equipment",
+                    "values": [
+                      "Scoop (DAPR009)",
+                      "Scoop (DAWH001)"
+                    ]
+                  },
+                  {
+                    "name": "Largest Surface Area",
+                    "values": [
+                      "300",
+                      "300"
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": "Pr6",
-            "title": "Test Product (Pr6)"
+            "title": "Test Product (Pr6)",
+            "content": [
+              {
+                "type": "text",
+                "line": "Worst SAL: 0.725 mg/sqcm"
+              },
+              {
+                "type": "text",
+                "line": "Next Production: Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg (Pr2)"
+              },
+              {
+                "type": "text",
+                "line": "Next PSwab Limit: 1813.458 ppm Swab Area: 25 sqcm Swab Volume: 10 ml"
+              },
+              {
+                "type": "table",
+                "title": "",
+                "columns": [
+                  {
+                    "name": "Previous API(A)",
+                    "values": [
+                      "1",
+                      "2",
+                      "3",
+                      "4"
+                    ]
+                  },
+                  {
+                    "name": "Next Production",
+                    "values": [
+                      "Pr2",
+                      "Pr3",
+                      "Pr4",
+                      "Pr5"
+                    ]
+                  },
+                  {
+                    "name": "ID (B)",
+                    "values": [
+                      "Pr2",
+                      "Pr3",
+                      "Pr4",
+                      "Pr5"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "title": "Shared Area Calculation for Pr1 and Pr2",
+                "columns": [
+                  {
+                    "name": "Equipment",
+                    "values": [
+                      "Scoop (DAPR009)",
+                      "Scoop (DAWH001)"
+                    ]
+                  },
+                  {
+                    "name": "Largest Surface Area",
+                    "values": [
+                      "300",
+                      "300"
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       }

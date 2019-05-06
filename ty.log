@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.4.24)  6 MAY 2019 20:48
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.4.24)  6 MAY 2019 22:13
  restricted system commands enabled.
  file:line:error style messages enabled.
 **ty.tex
@@ -35,7 +35,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.144 seconds
+luaotfload | main : initialization completed in 0.272 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
@@ -533,27 +533,91 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 \tf@toc=\write4
 
 \openout4 = ty.toc
- [2
 
-] [3] 
-AED: lastpage setting LastPage
+Underfull \hbox (badness 10000) in paragraph at lines 4--16
+
+ []
+
+[2
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 17--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--55
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 56--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--81
+
+ []
+
 [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
+Underfull \hbox (badness 10000) in paragraph at lines 84--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--122
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 123--135
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--88
+
+ []
+
+
+AED: lastpage setting LastPage
+[6] [7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
  (./ty.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 89.
 Package rerunfilecheck Info: File `ty.out' has not changed.
 (rerunfilecheck)             Checksum: DF1B7193099D61E32D80C5BD7A7F268D;1426.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 )
 
 Here is how much of LuaTeX's memory you used:
- 12687 strings out of 494413
+ 12690 strings out of 494413
  125171,319454 words of node,token memory allocated
  377 words of node memory still in use:
    2 hlist, 1 vlist, 1 rule, 2 glue, 4 attribute, 48 glue_spec, 4 attribute_list
 , 2 write nodes
-   avail lists: 2:355,3:94,4:64,5:74,6:33,7:1274,8:43,9:120,10:6,11:55
+   avail lists: 2:362,3:106,4:64,5:82,6:33,7:1487,8:43,9:126,10:6,11:63
  16428 multiletter control sequences out of 65536+600000
  42 fonts using 2958319 bytes
  40i,11n,43p,1004b,353s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -561,10 +625,10 @@ Here is how much of LuaTeX's memory you used:
 </usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.o
 tf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman17-regula
 r.otf>
-Output written on ty.pdf (5 pages, 24179 bytes).
+Output written on ty.pdf (8 pages, 27633 bytes).
 
-PDF statistics: 132 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
- 23 named destinations out of 1000 (max. 131072)
+PDF statistics: 150 PDF objects out of 1000 (max. 8388607)
+ 129 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 131072)
  113 words of extra memory for PDF output out of 10000 (max. 100000000)
 
