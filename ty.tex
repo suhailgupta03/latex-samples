@@ -12,6 +12,7 @@ file:close()
 \title{\directlua{tex.print(tab['documentName'])}}
 \author{\directlua{tex.print(tab['author'])}}
 \usepackage{fancyhdr}
+\usepackage{pgffor}
 \usepackage{lastpage}
 \usepackage[landscape, margin=1in]{geometry}
 \usepackage[yyyymmdd,hhmmss]{datetime}
@@ -64,6 +65,18 @@ file:close()
 %\newpage
 %\textcolor{NavyBlue}{TABLE OF CONTENTS}
 \tableofcontents
+
+\directlua{
+for i,k in pairs(tab["tableOfContents"]) do
+ if (i>1) then
+     \section{tex.sprint (", ")}
+     This is the first section
+ end
+     \section{tex.sprint (k.section.title)}
+     This is the first section
+end
+}
+
 \section{ Actives Limit Calculations}
 This is the first section
 \addcontentsline{toc}{section}{ Febuxostat Tablets 40 mg 80 mg and 120 mg (Pr1)}
