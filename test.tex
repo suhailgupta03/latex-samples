@@ -65,6 +65,16 @@ file:close()
 %\newpage
 %\textcolor{NavyBlue}{TABLE OF CONTENTS}
 \tableofcontents
+\directlua{
+	for i,k in pairs(tab['tableOfContents']) do
+		 tex.print ("\string\\section{" .. k.section.title .. "}")
+		 for ii,kk in pairs(k["subsection"]) do
+		 	tex.print ("\string\\subsection{" .. kk.title .. "}")
+		 	tex.print ("")
+		 end
+	end
+}
+
 \section{ Actives Limit Calculations}
 This is the first section
 \addcontentsline{toc}{section}{ Febuxostat Tablets 40 mg 80 mg and 120 mg (Pr1)}
