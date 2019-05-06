@@ -1,4 +1,3 @@
-\hypertarget {toc}{}
 \contentsline {paragraph}{Document Information}{1}{section*.1}
 \contentsline {subparagraph}{Document information is given in the table below}{1}{section*.2}
 \contentsline {subparagraph}{}{1}{section*.3}
