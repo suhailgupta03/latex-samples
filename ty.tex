@@ -1,0 +1,20 @@
+\documentclass{report}
+\usepackage{luacode}
+% load json file
+\begin{luacode}
+local json = require("json")
+local file = io.open("sample.json")
+tab = json.parse(file:read("*all"))
+file:close()
+\end{luacode}
+
+\begin{document}
+
+The name of the document is \directlua{tex.print(tab['documentName'])} with ID
+as \directlua{tex.print(tab['documentId'])} and mac-protocol-id as
+\directlua{tex.print(tab['macProtocolID'])}
+
+The name of the company is
+\directlua{tex.print(tab['headerFooter']['header']['left'])}
+
+\end{document}
