@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.4.24)  7 MAY 2019 18:30
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.4.24)  7 MAY 2019 18:50
  restricted system commands enabled.
  file:line:error style messages enabled.
 **ty.tex
@@ -35,7 +35,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.151 seconds
+luaotfload | main : initialization completed in 0.270 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
@@ -379,11 +379,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip52
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 90.
+Package hyperref Info: Option `colorlinks' set `true' on input line 91.
 
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 90.
+(hyperref)                setting the option has no effect on input line 91.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -411,27 +411,27 @@ File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
 )) (./ty.aux)
 \openout1 = ty.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
 
 ABD: EveryShipout initializing macros
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 105.
+(lastpage)             ! on input line 106.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -471,7 +471,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 File: fc-english.def 2016/01/12
 )
 \AtBeginShipoutBox=\box28
-Package hyperref Info: Link coloring ON on input line 105.
+Package hyperref Info: Link coloring ON on input line 106.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -481,9 +481,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count136
 )
-LaTeX Info: Redefining \ref on input line 105.
-LaTeX Info: Redefining \pageref on input line 105.
-LaTeX Info: Redefining \nameref on input line 105.
+LaTeX Info: Redefining \ref on input line 106.
+LaTeX Info: Redefining \pageref on input line 106.
+LaTeX Info: Redefining \nameref on input line 106.
 
 (./ty.out) (./ty.out)
 \@outlinefile=\write3
@@ -506,20 +506,20 @@ LaTeX Info: Redefining \nameref on input line 105.
 )(load luc: /Users/suhail/Library/texlive/2018/texmf-var/luatex-cache/generic/fo
 nts/otl/lmroman17-regular.luc)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 107.
+(Font)              <14.4> on input line 108.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 107.
+(Font)              <7> on input line 108.
  [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}](load luc
 : /Users/suhail/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/lm
 roman12-bold.luc)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 114.
+(Font)              <12> on input line 115.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 114.
+(Font)              <8> on input line 115.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 114.
+(Font)              <6> on input line 115.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -591,46 +591,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 696--764
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 765--131
+Underfull \hbox (badness 10000) in paragraph at lines 765--132
 
  []
 
 
 AED: lastpage setting LastPage
 [11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 133.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
  (./ty.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 132.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 132.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
 Package rerunfilecheck Info: File `ty.out' has not changed.
 (rerunfilecheck)             Checksum: DF1B7193099D61E32D80C5BD7A7F268D;1426.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 )
 
 Here is how much of LuaTeX's memory you used:
- 12695 strings out of 494413
+ 12694 strings out of 494413
  125171,319454 words of node,token memory allocated
  377 words of node memory still in use:
    2 hlist, 1 vlist, 1 rule, 2 glue, 4 attribute, 48 glue_spec, 4 attribute_list
 , 2 write nodes
-   avail lists: 2:494,3:108,4:64,5:88,6:34,7:1868,8:151,9:160,10:6,11:72
+   avail lists: 2:494,3:108,4:64,5:88,6:34,7:1828,8:122,9:160,10:6,11:72
  16428 multiletter control sequences out of 65536+600000
  42 fonts using 2958319 bytes
  40i,11n,43p,1004b,353s stack positions out of 5000i,500n,10000p,200000b,100000s
-
-warning  (pdf backend): unreferenced destination with name 'page.12'
 </usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
 </usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.o
 tf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman17-regula
 r.otf>
-Output written on ty.pdf (12 pages, 37407 bytes).
+Output written on ty.pdf (12 pages, 36546 bytes).
 
-PDF statistics: 177 PDF objects out of 1000 (max. 8388607)
- 152 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 131072)
+PDF statistics: 176 PDF objects out of 1000 (max. 8388607)
+ 151 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 131072)
  113 words of extra memory for PDF output out of 10000 (max. 100000000)
 

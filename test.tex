@@ -31,8 +31,9 @@ function renderSections(tab)
 					col_schema = ""
 					for _ in pairs(kkk["columns"]) do 
 						column_count = column_count + 1 
-						col_schema = col_schema .. " | l |"
+						col_schema = col_schema .. " | l"
 					end
+					col_schema = col_schema .. "|"
 					for _ in pairs(kkk["columns"][1]["values"]) do row_count = row_count + 1 end
 					if not isempty(kkk.title) then
 						tex.print("\string\\textbf{" .. kkk.title .."}")
