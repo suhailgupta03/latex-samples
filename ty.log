@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.4.24)  9 MAY 2019 00:23
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.4.24)  9 MAY 2019 00:32
  restricted system commands enabled.
  file:line:error style messages enabled.
 **ty.tex
@@ -35,7 +35,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.142 seconds
+luaotfload | main : initialization completed in 0.165 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
@@ -182,7 +182,7 @@ Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
 \luacode@lines=\toks14
 \luacode@table@soft=\catcodetable7
 )
-Time passed parsing JSON: 0.0019981861114502 s
+Time passed parsing JSON: 0.0010969638824463 s
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footers
 
@@ -660,8 +660,12 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 
 \openout4 = ty.toc
 
-Time passed rendering section: 0.0007789134979248 s
-Time passed rendering section: 0.0001680850982666 s
+Time passed rendering section: 0.00053596496582031 s
+Time passed rendering section: 0.00020289421081543 s
+[2
+
+]
+Chapter 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 129--129
 []|\TU/lmr/m/n/12 Pre-vi-ous
@@ -767,7 +771,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--157
 
  []
 
-[2
+[3
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 283--283
@@ -904,7 +908,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--311
 
  []
 
-[3]
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 462--462
 []|\TU/lmr/m/n/12 Pre-vi-ous
  []
@@ -1014,7 +1018,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 312--505
 
  []
 
-[4]
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 654--654
 []|\TU/lmr/m/n/12 Pre-vi-ous
  []
@@ -1124,7 +1128,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 506--697
 
  []
 
-[5]
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 779--779
 []|\TU/lmr/m/n/12 Pre-vi-ous
  []
@@ -1219,7 +1223,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 698--802
 
  []
 
-[6]
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 928--928
 []|\TU/lmr/m/n/12 Pre-vi-ous
  []
@@ -1324,7 +1328,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 803--956
 
  []
 
-[7]
+[8] [9]
+Chapter 2.
+
 Underfull \hbox (badness 6758) in paragraph at lines 1061--1061
 []|\TU/lmr/m/n/12 Clean-ing Agent
  []
@@ -1349,7 +1355,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 959--1089
 
  []
 
-[8]
+[10
+
+]
 Underfull \hbox (badness 6758) in paragraph at lines 1192--1192
 []|\TU/lmr/m/n/12 Clean-ing Agent
  []
@@ -1374,7 +1382,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1090--1220
 
  []
 
-[9]
+
 Underfull \hbox (badness 6758) in paragraph at lines 1259--1259
 []|\TU/lmr/m/n/12 Clean-ing Agent
  []
@@ -1399,36 +1407,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 1221--144
 
  []
 
-
+[11] 
 AED: lastpage setting LastPage
-[10]
+[12]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
  (./ty.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
-Package rerunfilecheck Info: File `ty.out' has not changed.
-(rerunfilecheck)             Checksum: AE82812C890A1642C356FEE83324860C;996.
+
+
+Package rerunfilecheck Warning: File `ty.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ty.out':
+(rerunfilecheck)             Before: 86E106B0DE60F36ED55E071A8E40B959;1023
+(rerunfilecheck)             After:  317633545446DDD8AADC1B7DA9CAC063;929.
 )
 
 Here is how much of LuaTeX's memory you used:
- 13430 strings out of 494413
+ 13439 strings out of 494413
  125171,383344 words of node,token memory allocated
  382 words of node memory still in use:
    2 hlist, 1 vlist, 1 rule, 2 glue, 4 attribute, 49 glue_spec, 4 attribute_list
 , 2 write nodes
-   avail lists: 1:1,2:957,3:510,4:52,5:94,6:215,7:3355,8:718,9:966,10:6,11:93
- 17110 multiletter control sequences out of 65536+600000
- 42 fonts using 2958319 bytes
+   avail lists: 1:1,2:959,3:511,4:48,5:94,6:215,7:3353,8:718,9:966,10:6,11:93
+ 17109 multiletter control sequences out of 65536+600000
+ 41 fonts using 2826639 bytes
  40i,11n,43p,1004b,365s stack positions out of 5000i,500n,10000p,200000b,100000s
+
+warning  (pdf backend): unreferenced destination with name 'subsection.2.0.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.2.0.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.2.0.1'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.0.6'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.0.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.0.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.0.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.0.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.0.1'
 </usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
 </usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.o
 tf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman17-regula
 r.otf>
-Output written on ty.pdf (11 pages, 41076 bytes).
+Output written on ty.pdf (13 pages, 42338 bytes).
 
-PDF statistics: 155 PDF objects out of 1000 (max. 8388607)
- 131 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 131072)
+PDF statistics: 174 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 131072)
  89 words of extra memory for PDF output out of 10000 (max. 100000000)
 

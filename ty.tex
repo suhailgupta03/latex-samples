@@ -19,10 +19,10 @@ end
 function renderSections(tab)
 	for i,k in ipairs(tab['tableOfContents']) do
 		 local sec_start = socket.gettime()
-		 tex.print ("\string\\section{" .. k.section.title .. "}")
+		 tex.print ("\string\\chapter{" .. k.section.title .. "}")
 		 tex.print("section text here")
 		 for ii,kk in ipairs(k["subsection"]) do
-		 	tex.print ("\string\\subsection{" .. kk.title .. "}")
+		 	tex.print ("\string\\section{" .. kk.title .. "}")
 		 	tex.print ("some text here")
 			tex.print("\string\\newline")
 			for iii, kkk in ipairs(kk["content"]) do
