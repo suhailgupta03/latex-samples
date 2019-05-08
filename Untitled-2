@@ -1,0 +1,24 @@
+"columns": [
+                  {
+                    "name": "name",
+                    "values": [
+                      "Scoop(DAPR009)",
+                      "Scoop(DAWH001)",
+                      "CompressionMachine",
+                      "Tabletdeduster",
+                      "Tabletdeduster",
+                      "TOTAL"
+                    ]
+                  },
+                  {
+                    "name": "area",
+                    "values": [
+                      "300",
+                      "300",
+                      "18725",
+                      "8410",
+                      "8410",
+                      "36145"
+                    ]
+                  }
+                ]

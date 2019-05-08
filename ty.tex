@@ -1,10 +1,14 @@
 \documentclass[a4paper,12pt]{report}
-\usepackage{luacode}
+\usepackage[english]{babel}
 
+\usepackage{luacode}
 \begin{luacode}
+local socket = require("socket")
 local json = require("json")
-local file = io.open("sample.json")
+local file = io.open("sample-true.json")
+local start = socket.gettime()
 tab = json.parse(file:read("*all"))
+texio.write_nl("Time passed parsing JSON: " .. socket.gettime() - start .. " s\string\n")
 file:close()
 \end{luacode}
 
@@ -13,26 +17,21 @@ local function isempty(s)
   return s == nil or s == ''
 end
 
-function renderRead()
-	local f = assert(io.open("render.tex", "rb"))
-    	local content = f:read("*all")
-	f:close()
-	tex.print(content)
-end
-
 function renderSections(tab)
-    	r = ""
 	for i,k in pairs(tab['tableOfContents']) do
-		 r = "   "  .. r .. ("\string\\section{" .. k.section.title .. "}")
-		 r = "   " .. r .. ("section text here")
+		 local sec_start = socket.gettime()
+		 tex.print ("\string\\section{" .. k.section.title .. "}")
+		 tex.print("section text here")
 		 for ii,kk in pairs(k["subsection"]) do
-		 	r = "   " .. r ..  ("\string\\subsection{" .. kk.title .. "}")
-		 	r = "   " .. r ..  ("some text here")
-			--r = "   " .. r .. ("\string\\newline") .. " "
+		 	tex.print ("\string\\subsection{" .. kk.title .. "}")
+		 	tex.print ("some text here")
+			tex.print("\string\\newline")
 			for iii, kkk in pairs(kk["content"]) do
 				if kkk['type'] == "text" then
-					r = "   " .. r .. (kkk["line"])
-					--r = " " .. r .. ("\string\\newline") .. " "
+					if not isempty(kkk["line"]) then
+						tex.print(kkk["line"])
+						tex.print("\string\\newline")
+					end
 				elseif kkk["type"] == "table" then
 					local column_count = 0
 					local row_count = 0
@@ -44,44 +43,43 @@ function renderSections(tab)
 					col_schema = col_schema .. "|"
 					for _ in pairs(kkk["columns"][1]["values"]) do row_count = row_count + 1 end
 					if not isempty(kkk.title) then
-						r = "   " .. r .. ("\string\\textbf{" .. kkk.title .."}")
-						r = "   " .. r .. ("\\\\[0.1in]")
+						tex.print("\string\\textbf{" .. kkk.title .."}")
+						tex.print("\\\\[0.1in]")
 					end
-					r = "   " .. r .. ("\string\\begin{tabular}{"  .. col_schema ..  "}")
-					r = "   " .. r .. ("\\hline") .. "    "
+					tex.print("\string\\begin{tabular}{"  .. col_schema ..  "}")
+					tex.print("\\hline")
 					for ci, c in pairs(kkk["columns"]) do
-						r = "    " .. r .. (c.name)
+						local c_name = string.gsub(c.name, "&","\\&")
+						tex.print(c_name)
 						if ci < column_count then
-							r = "    " .. r .. (" & ")
+							tex.print(" & ")
 						end
 					end	
-					r = "   " .. r .. ("\\\\") .. "    "
-					r = "   " .. r .. ("\\hline") .. "    "
+					tex.print("\\\\")
+					tex.print("\\hline")
 					i = 1
 					while i <= row_count do
 						local c_c = 1
 						while c_c <= column_count do
-							r = " " .. r .. (kkk["columns"][c_c]["values"][i])
+							local row_val = kkk["columns"][c_c]["values"][i]
+							row_val = string.gsub(row_val, "&", "\\&")
+							tex.print(row_val)
 							if c_c < column_count then
-								r = " " .. r .. (" & ")
+								tex.print(" & ")
 							end
 							c_c = c_c + 1
 						end
-						r = "   " .. r .. ("\\\\") .. "    "
-						r = "    " .. r .. ("\\hline") .. "    "
+						tex.print("\\\\")
+						tex.print("\\hline")
 						i = i + 1
 					end
-					r = "    " .. r .. ("\string\\end{tabular}")
-					r = "    " .. r .. ("\\\\[0.5in]") .. "    "
+					tex.print("\string\\end{tabular}")
+					tex.print("\\\\[0.1in]")
 				end
 			end
 		 end
+		 texio.write_nl("Time passed rendering section: " .. socket.gettime() - sec_start .. " s\string\n")
 	end
-
-    file = io.open("render.tex", "w")
-    io.output(file)
-    io.write(r)
-    io.close(file)
 end
 \end{luacode}
 
@@ -90,6 +88,7 @@ end
 \usepackage{fancyhdr}
 \usepackage{pgffor}
 \usepackage{lastpage}
+%\usepackage[extreme]{savetrees}
 \usepackage[landscape, margin=1in]{geometry}
 \usepackage[yyyymmdd,hhmmss]{datetime}
 \usepackage{hyperref}
@@ -141,6 +140,6 @@ end
 %\newpage
 %\textcolor{NavyBlue}{TABLE OF CONTENTS}
 \tableofcontents
-\directlua{renderRead()}
+\directlua{renderSections(tab)}
 
 \end{document}

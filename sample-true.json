@@ -1,0 +1,61 @@
+{
+    "author": "Leucine",
+    "documentName": "Worst Case Residue Limits Calculations Matrix",
+    "documentId": "MAC-Matrix/1",
+    "documentGeneratedAt": "2019-05-08T13:55:00.972Z",
+    "documentGeneratedBy": "admin@leucinetech.com",
+    "macProtocolID": "CV/1",
+    "headerFooter": {
+      "header": {
+        "left": "Leucine,Head Office (Koramangala, Bengaluru)",
+        "right": "For Restricted circulation only. "
+      },
+      "footer": {
+        "left": "MAC-Matrix/1"
+      }
+    },
+    "tableOfContents": [
+      {
+        "section": {
+          "title": "Actives Limit Calculations",
+          "text": "This is section text"
+        },
+        "subsection": [
+          {
+            "id": "actives",
+            "title": "Actives Limit Calculations",
+            "content": [
+              {
+                "type": "table",
+                "title": "ooo",
+                "columns": [
+                  {
+                    "name": "name",
+                    "values": [
+                      "Scoop (DAPR009)",
+                      "Scoop (DAWH001)",
+                      "Compression Machine (39 stn) (DEPR022)",
+                      "Tablet deduster & metal detector (DEPR023)",
+                      "Tablet deduster & metal detector (DEPR024)",
+                      "TOTAL"
+                    ]
+                  },
+                  {
+                    "name": "area",
+                    "values": [
+                      "300",
+                      "300",
+                      "18725",
+                      "8410",
+                      "8410",
+                      "36145"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -5,7 +5,7 @@
 \begin{luacode}
 local socket = require("socket")
 local json = require("json")
-local file = io.open("sample-large.json")
+local file = io.open("sample-true.json")
 local start = socket.gettime()
 tab = json.parse(file:read("*all"))
 texio.write_nl("Time passed parsing JSON: " .. socket.gettime() - start .. " s\string\n")
@@ -28,8 +28,10 @@ function renderSections(tab)
 			tex.print("\string\\newline")
 			for iii, kkk in pairs(kk["content"]) do
 				if kkk['type'] == "text" then
-					tex.print(kkk["line"])
-					tex.print("\string\\newline")
+					if not isempty(kkk["line"]) then
+						tex.print(kkk["line"])
+						tex.print("\string\\newline")
+					end
 				elseif kkk["type"] == "table" then
 					local column_count = 0
 					local row_count = 0
@@ -47,7 +49,8 @@ function renderSections(tab)
 					tex.print("\string\\begin{tabular}{"  .. col_schema ..  "}")
 					tex.print("\\hline")
 					for ci, c in pairs(kkk["columns"]) do
-						tex.print(c.name)
+						local c_name = string.gsub(c.name, "&","\\&")
+						tex.print(c_name)
 						if ci < column_count then
 							tex.print(" & ")
 						end
@@ -58,7 +61,9 @@ function renderSections(tab)
 					while i <= row_count do
 						local c_c = 1
 						while c_c <= column_count do
-							tex.print(kkk["columns"][c_c]["values"][i])
+							local row_val = kkk["columns"][c_c]["values"][i]
+							row_val = string.gsub(row_val, "&", "\\&")
+							tex.print(row_val)
 							if c_c < column_count then
 								tex.print(" & ")
 							end
