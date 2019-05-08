@@ -13,18 +13,26 @@ local function isempty(s)
   return s == nil or s == ''
 end
 
+function renderRead()
+	local f = assert(io.open("render.tex", "rb"))
+    	local content = f:read("*all")
+	f:close()
+	tex.print(content)
+end
+
 function renderSections(tab)
+    	r = ""
 	for i,k in pairs(tab['tableOfContents']) do
-		 tex.print ("\string\\section{" .. k.section.title .. "}")
-		 tex.print("section text here")
+		 r = "   "  .. r .. ("\string\\section{" .. k.section.title .. "}")
+		 r = "   " .. r .. ("section text here")
 		 for ii,kk in pairs(k["subsection"]) do
-		 	tex.print ("\string\\subsection{" .. kk.title .. "}")
-		 	tex.print ("some text here")
-			tex.print("\string\\newline")
+		 	r = "   " .. r ..  ("\string\\subsection{" .. kk.title .. "}")
+		 	r = "   " .. r ..  ("some text here")
+			--r = "   " .. r .. ("\string\\newline") .. " "
 			for iii, kkk in pairs(kk["content"]) do
 				if kkk['type'] == "text" then
-					tex.print(kkk["line"])
-					tex.print("\string\\newline")
+					r = "   " .. r .. (kkk["line"])
+					--r = " " .. r .. ("\string\\newline") .. " "
 				elseif kkk["type"] == "table" then
 					local column_count = 0
 					local row_count = 0
@@ -36,39 +44,44 @@ function renderSections(tab)
 					col_schema = col_schema .. "|"
 					for _ in pairs(kkk["columns"][1]["values"]) do row_count = row_count + 1 end
 					if not isempty(kkk.title) then
-						tex.print("\string\\textbf{" .. kkk.title .."}")
-						tex.print("\\\\[0.1in]")
+						r = "   " .. r .. ("\string\\textbf{" .. kkk.title .."}")
+						r = "   " .. r .. ("\\\\[0.1in]")
 					end
-					tex.print("\string\\begin{tabular}{"  .. col_schema ..  "}")
-					tex.print("\\hline")
+					r = "   " .. r .. ("\string\\begin{tabular}{"  .. col_schema ..  "}")
+					r = "   " .. r .. ("\\hline") .. "    "
 					for ci, c in pairs(kkk["columns"]) do
-						tex.print(c.name)
+						r = "    " .. r .. (c.name)
 						if ci < column_count then
-							tex.print(" & ")
+							r = "    " .. r .. (" & ")
 						end
 					end	
-					tex.print("\\\\")
-					tex.print("\\hline")
+					r = "   " .. r .. ("\\\\") .. "    "
+					r = "   " .. r .. ("\\hline") .. "    "
 					i = 1
 					while i <= row_count do
 						local c_c = 1
 						while c_c <= column_count do
-							tex.print(kkk["columns"][c_c]["values"][i])
+							r = " " .. r .. (kkk["columns"][c_c]["values"][i])
 							if c_c < column_count then
-								tex.print(" & ")
+								r = " " .. r .. (" & ")
 							end
 							c_c = c_c + 1
 						end
-						tex.print("\\\\")
-						tex.print("\\hline")
+						r = "   " .. r .. ("\\\\") .. "    "
+						r = "    " .. r .. ("\\hline") .. "    "
 						i = i + 1
 					end
-					tex.print("\string\\end{tabular}")
-					tex.print("\\\\[0.5in]")
+					r = "    " .. r .. ("\string\\end{tabular}")
+					r = "    " .. r .. ("\\\\[0.5in]") .. "    "
 				end
 			end
 		 end
 	end
+
+    file = io.open("render.tex", "w")
+    io.output(file)
+    io.write(r)
+    io.close(file)
 end
 \end{luacode}
 
@@ -128,6 +141,6 @@ end
 %\newpage
 %\textcolor{NavyBlue}{TABLE OF CONTENTS}
 \tableofcontents
-\directlua{renderSections(tab)}
+\directlua{renderRead()}
 
 \end{document}

@@ -1,10 +1,14 @@
 \documentclass[a4paper,12pt]{report}
-\usepackage{luacode}
+\usepackage[english]{babel}
 
+\usepackage{luacode}
 \begin{luacode}
+local socket = require("socket")
 local json = require("json")
-local file = io.open("sample.json")
+local file = io.open("sample-large.json")
+local start = socket.gettime()
 tab = json.parse(file:read("*all"))
+texio.write_nl("Time passed parsing JSON: " .. socket.gettime() - start .. " s\string\n")
 file:close()
 \end{luacode}
 
@@ -15,6 +19,7 @@ end
 
 function renderSections(tab)
 	for i,k in pairs(tab['tableOfContents']) do
+		 local sec_start = socket.gettime()
 		 tex.print ("\string\\section{" .. k.section.title .. "}")
 		 tex.print("section text here")
 		 for ii,kk in pairs(k["subsection"]) do
@@ -64,10 +69,11 @@ function renderSections(tab)
 						i = i + 1
 					end
 					tex.print("\string\\end{tabular}")
-					tex.print("\\\\[0.5in]")
+					tex.print("\\\\[0.1in]")
 				end
 			end
 		 end
+		 texio.write_nl("Time passed rendering section: " .. socket.gettime() - sec_start .. " s\string\n")
 	end
 end
 \end{luacode}
@@ -77,6 +83,7 @@ end
 \usepackage{fancyhdr}
 \usepackage{pgffor}
 \usepackage{lastpage}
+%\usepackage[extreme]{savetrees}
 \usepackage[landscape, margin=1in]{geometry}
 \usepackage[yyyymmdd,hhmmss]{datetime}
 \usepackage{hyperref}
