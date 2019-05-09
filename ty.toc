@@ -5,11 +5,14 @@
 \contentsline {chapter}{\numberline {1}Actives Limit Calculations}{3}{chapter.1}
 \contentsline {section}{\numberline {1.1}Febuxostat Tablets 40 mg 80 mg and 120 mg (Pr1)}{3}{section.1.1}
 \contentsline {section}{\numberline {1.2}Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg (Pr2)}{4}{section.1.2}
-\contentsline {section}{\numberline {1.3}Telmisartan Tablets 20 mg 40 mg and 80 mg (Pr3)}{5}{section.1.3}
-\contentsline {section}{\numberline {1.4}Rosuvastatin Calcium Tablets 5 mg 10 mg 20 mg and 40 mg (Pr4)}{6}{section.1.4}
-\contentsline {section}{\numberline {1.5}Pregabalin Capsules 25 mg 50 mg 75 mg 100 mg 150 mg 200 mg 225 mg and 300 mg (Pr5)}{7}{section.1.5}
-\contentsline {section}{\numberline {1.6}Test Product (Pr6)}{8}{section.1.6}
-\contentsline {chapter}{\numberline {2}Cleaning Agent Limit Calculations}{10}{chapter.2}
-\contentsline {section}{\numberline {2.1}Scoop (DAPR009)}{10}{section.2.1}
-\contentsline {section}{\numberline {2.2}Scoop (DAWH001)}{11}{section.2.2}
-\contentsline {section}{\numberline {2.3}IdenticalGroup1 (EGI1)}{12}{section.2.3}
+\contentsline {section}{\numberline {1.3}Telmisartan Tablets 20 mg 40 mg and 80 mg (Pr3)}{4}{section.1.3}
+\contentsline {section}{\numberline {1.4}Rosuvastatin Calcium Tablets 5 mg 10 mg 20 mg and 40 mg (Pr4)}{5}{section.1.4}
+\contentsline {section}{\numberline {1.5}Pregabalin Capsules 25 mg 50 mg 75 mg 100 mg 150 mg 200 mg 225 mg and 300 mg (Pr5)}{6}{section.1.5}
+\contentsline {section}{\numberline {1.6}Test Product (Pr6)}{6}{section.1.6}
+\contentsline {chapter}{\numberline {2}Cleaning Agent Limit Calculations}{8}{chapter.2}
+\contentsline {section}{\numberline {2.1}Febuxostat Tablets 40 mg 80 mg and 120 mg (Pr1)}{8}{section.2.1}
+\contentsline {section}{\numberline {2.2}Dabigatran Etexilate Capsules 75 mg 110 mg and 150 mg (Pr2)}{9}{section.2.2}
+\contentsline {section}{\numberline {2.3}Telmisartan Tablets 20 mg 40 mg and 80 mg (Pr3)}{9}{section.2.3}
+\contentsline {section}{\numberline {2.4}Rosuvastatin Calcium Tablets 5 mg 10 mg 20 mg and 40 mg (Pr4)}{10}{section.2.4}
+\contentsline {section}{\numberline {2.5}Pregabalin Capsules 25 mg 50 mg 75 mg 100 mg 150 mg 200 mg 225 mg and 300 mg (Pr5)}{11}{section.2.5}
+\contentsline {section}{\numberline {2.6}Test Product (Pr6)}{11}{section.2.6}
