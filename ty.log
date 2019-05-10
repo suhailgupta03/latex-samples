@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.4.24)  9 MAY 2019 21:10
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.4.24)  10 MAY 2019 15:44
  restricted system commands enabled.
  file:line:error style messages enabled.
 **ty.tex
@@ -35,15 +35,15 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.144 seconds
+luaotfload | main : initialization completed in 0.154 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 luaotfload | db : Font names database loaded from /Users/suhail/Library/texlive/
 2018/texmf-var/luatex-cache/generic/names/luaotfload-names.luc(load luc: /Users/
-suhail/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-r
+suhail/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-r
 egular.luc))
 \c@part=\count80
 \c@chapter=\count81
@@ -182,7 +182,7 @@ Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
 \luacode@lines=\toks14
 \luacode@table@soft=\catcodetable7
 )
-Time passed parsing JSON: 0.001101016998291 s\string
+Time passed parsing JSON: 0.0011951923370361 s\string
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footers
 
@@ -509,11 +509,92 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip54
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 197.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/markdown/markdown.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 99.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen137
+\Gin@req@width=\dimen138
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count138
+\FV@InFile=\read1
+\FV@TabBox=\box30
+\c@FancyVerbLine=\count139
+\FV@StepNumber=\count140
+\FV@OutFile=\write3
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/csvsimple/csvsimple.sty
+Package: csvsimple 2016/07/01 version 1.20 LaTeX CSV file processing
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 69.
+)
+\csv@file=\read2
+\c@csvinputline=\count141
+\c@csvrow=\count142
+\c@csvcol=\count143
+\csv@out=\write4
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/markdown/markdown.tex
+\markdownInputFileStream=\read3
+\markdownOutputFileStream=\write5
+(l.561) markdown.tex info: Using mode 2: Direct Lua access.
+)
+Package: markdown 2018/04/08 v2.5.6 markdown renderer
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/paralist/paralist.sty
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip55
+\plpartopsep=\skip56
+\plitemsep=\skip57
+\plparsep=\skip58
+\pl@lab=\toks34
+)
+\markdownLaTeXCitationsCounter=\count144
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip59
+\LTright=\skip60
+\LTpre=\skip61
+\LTpost=\skip62
+\LTchunksize=\count145
+\LTcapwidth=\dimen139
+\LT@head=\box31
+\LT@firsthead=\box32
+\LT@foot=\box33
+\LT@lastfoot=\box34
+\LT@cols=\count146
+\LT@rows=\count147
+\c@LT@tables=\count148
+\c@LT@chunks=\count149
+\LT@p@ftn=\toks35
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 233.
 
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 197.
+(hyperref)                setting the option has no effect on input line 233.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -522,10 +603,6 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: luatex.def on input line 225.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/luatex.def
-File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
-)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -541,27 +618,27 @@ File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
 )) (./ty.aux)
 \openout1 = ty.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
 
 ABD: EveryShipout initializing macros
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 212.
+(lastpage)             ! on input line 246.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -571,23 +648,23 @@ Package lastpage Info: Please have a look at the pageslts package at
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: landscape 
-* h-part:(L,W,R)=(72.26999pt, 700.50687pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 452.9679pt, 72.26999pt)
+* h-part:(L,W,R)=(57.81621pt, 729.41443pt, 57.81621pt)
+* v-part:(T,H,B)=(57.81621pt, 481.87546pt, 57.81621pt)
 * \paperwidth=845.04684pt
 * \paperheight=597.50787pt
-* \textwidth=700.50687pt
-* \textheight=452.9679pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-37.0pt
+* \textwidth=729.41443pt
+* \textheight=481.87546pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-51.45378pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=11.0pt
 * \footskip=30.0pt
-* \marginparwidth=35.0pt
+* \marginparwidth=50.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -597,171 +674,986 @@ Package lastpage Info: Please have a look at the pageslts package at
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box30
-Package hyperref Info: Link coloring ON on input line 212.
+\AtBeginShipoutBox=\box35
+Package hyperref Info: Link coloring ON on input line 246.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count138
+\c@section@level=\count150
 )
-LaTeX Info: Redefining \ref on input line 212.
-LaTeX Info: Redefining \pageref on input line 212.
-LaTeX Info: Redefining \nameref on input line 212.
+LaTeX Info: Redefining \ref on input line 246.
+LaTeX Info: Redefining \pageref on input line 246.
+LaTeX Info: Redefining \nameref on input line 246.
 
 (./ty.out) (./ty.out)
-\@outlinefile=\write3
+\@outlinefile=\write6
 
-\openout3 = ty.out
+\openout6 = ty.out
 
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count139
-\scratchdimen=\dimen137
-\scratchbox=\box31
-\nofMPsegments=\count140
-\nofMParguments=\count141
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count142
-\MPscratchDim=\dimen138
-\MPnumerator=\count143
-\makeMPintoPDFobject=\count144
-\everyMPtoPDFconversion=\toks35
-)(load luc: /Users/suhail/Library/texlive/2018/texmf-var/luatex-cache/generic/fo
-nts/otl/lmroman17-regular.luc)
+\scratchcounter=\count151
+\scratchdimen=\dimen140
+\scratchbox=\box36
+\nofMPsegments=\count152
+\nofMParguments=\count153
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count154
+\MPscratchDim=\dimen141
+\MPnumerator=\count155
+\makeMPintoPDFobject=\count156
+\everyMPtoPDFconversion=\toks37
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
+8.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
+))(load luc: /Users/suhail/Library/texlive/2018/texmf-var/luatex-cache/generic/f
+onts/otl/lmroman17-regular.luc)(load luc: /Users/suhail/Library/texlive/2018/tex
+mf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 214.
+(Font)              <12> on input line 248.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 214.
+(Font)              <8> on input line 248.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 248.
  [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}](load luc
 : /Users/suhail/Library/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/lm
-roman12-bold.luc)
+roman10-bold.luc)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 221.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 221.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 221.
-
+(Font)              <10.95> on input line 255.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
+ Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
-[1] (./ty.toc)
-\tf@toc=\write4
+[1](load luc: /Users/suhail/Library/texlive/2018/texmf-var/luatex-cache/generic/
+fonts/otl/lmroman12-bold.luc) (./ty.toc)
+\tf@toc=\write7
 
-\openout4 = ty.toc
+\openout7 = ty.toc
 
-Time passed rendering section: 0.00022387504577637 s
-Time passed rendering section: 0.0002892017364502 s
+Time passed rendering section: 0.00020694732666016 s
+Time passed rendering section: 0.00049996376037598 s
+Time passed rendering section: 4.9114227294922e-05 s
+Time passed rendering section: 0.00022983551025391 s
+Time passed rendering section: 0.00016117095947266 s
+Time passed rendering section: 7.7009201049805e-05 s
+Time passed rendering section: 0.00013303756713867 s
 [2
 
 ]
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--72
+\openout5 = ty.markdown.in
+Package markdown Info: Buffering markdown input into the temporary input file "t
+y.markdown.in" and scanning for the closing token sequence "\end{markdown}" on i
+nput line 2.
+Package markdown Info: The ending token sequence was found on input line 4.
+Package markdown Info: Including markdown document "ty.markdown.in" on input lin
+e 4.
+(./_markdown_ty/ec5c66891ab429f90c835da399dabf92.md.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 1--7
+
+ []
+
+
+\openout5 = ty.markdown.in
+Package markdown Info: Buffering markdown input into the temporary input file "t
+y.markdown.in" and scanning for the closing token sequence "\end{markdown}" on i
+nput line 10.
+Package markdown Info: The ending token sequence was found on input line 12.
+Package markdown Info: Including markdown document "ty.markdown.in" on input lin
+e 12.
+(./_markdown_ty/49a4ad569fd38c418abcb11a9207f485.md.tex)
+\openout5 = ty.markdown.in
+
+Package markdown Info: Buffering markdown input into the temporary input file "t
+y.markdown.in" and scanning for the closing token sequence "\end{markdown}" on i
+nput line 14.
+Package markdown Info: The ending token sequence was found on input line 16.
+Package markdown Info: Including markdown document "ty.markdown.in" on input lin
+e 16.
+
+(./_markdown_ty/880176ff9cd78b8b177656efeb981e66.md.tex)
+\openout5 = ty.markdown.in
+
+Package markdown Info: Buffering markdown input into the temporary input file "t
+y.markdown.in" and scanning for the closing token sequence "\end{markdown}" on i
+nput line 18.
+Package markdown Info: The ending token sequence was found on input line 20.
+Package markdown Info: Including markdown document "ty.markdown.in" on input lin
+e 20.
+
+(./_markdown_ty/2165433aafe4e5e587ce1e2646cc9d10.md.tex)
+\openout5 = ty.markdown.in
+
+Package markdown Info: Buffering markdown input into the temporary input file "t
+y.markdown.in" and scanning for the closing token sequence "\end{markdown}" on i
+nput line 22.
+Package markdown Info: The ending token sequence was found on input line 24.
+Package markdown Info: Including markdown document "ty.markdown.in" on input lin
+e 24.
+
+(./_markdown_ty/bb22c3324a3891b05217f2e75dae088e.md.tex)
+\openout5 = ty.markdown.in
+
+Package markdown Info: Buffering markdown input into the temporary input file "t
+y.markdown.in" and scanning for the closing token sequence "\end{markdown}" on i
+nput line 26.
+Package markdown Info: The ending token sequence was found on input line 28.
+Package markdown Info: Including markdown document "ty.markdown.in" on input lin
+e 28.
+
+(./_markdown_ty/1529cbc923e24d385d98b48685fecd73.md.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+[]|\TU/lmr/m/n/10.95 (1/SF) * (MDD_a) *
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 76--76
+[]|\TU/lmr/m/n/10.95 Based on min-i-mum daily
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 76--76
+[]|\TU/lmr/m/n/10.95 (1/100000) * (MBS_b) *
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\TU/lmr/m/n/10.95 cept-able Daily Ex-po-sure
+ []
+
+
+\openout5 = ty.markdown.in
+Package markdown Info: Buffering markdown input into the temporary input file "t
+y.markdown.in" and scanning for the closing token sequence "\end{markdown}" on i
+nput line 78.
+Package markdown Info: The ending token sequence was found on input line 80.
+Package markdown Info: Including markdown document "ty.markdown.in" on input lin
+e 80.
+(./_markdown_ty/f46db409af241614d0c39162bc234368.md.tex)
+\openout5 = ty.markdown.in
+
+Package markdown Info: Buffering markdown input into the temporary input file "t
+y.markdown.in" and scanning for the closing token sequence "\end{markdown}" on i
+nput line 82.
+Package markdown Info: The ending token sequence was found on input line 84.
+Package markdown Info: Including markdown document "ty.markdown.in" on input lin
+e 84.
+
+(./_markdown_ty/12337cd5baff528eca961115fe066569.md.tex)
+\openout5 = ty.markdown.in
+
+Package markdown Info: Buffering markdown input into the temporary input file "t
+y.markdown.in" and scanning for the closing token sequence "\end{markdown}" on i
+nput line 86.
+Package markdown Info: The ending token sequence was found on input line 88.
+Package markdown Info: Including markdown document "ty.markdown.in" on input lin
+e 88.
+
+(./_markdown_ty/01e099a28a593b489d4866b7b5f10568.md.tex)
+\openout5 = ty.markdown.in
+
+Package markdown Info: Buffering markdown input into the temporary input file "t
+y.markdown.in" and scanning for the closing token sequence "\end{markdown}" on i
+nput line 90.
+Package markdown Info: The ending token sequence was found on input line 92.
+Package markdown Info: Including markdown document "ty.markdown.in" on input lin
+e 92.
+
+(./_markdown_ty/32b456bac08d4b497765786542f0131d.md.tex)
+\openout5 = ty.markdown.in
+
+Package markdown Info: Buffering markdown input into the temporary input file "t
+y.markdown.in" and scanning for the closing token sequence "\end{markdown}" on i
+nput line 94.
+Package markdown Info: The ending token sequence was found on input line 96.
+Package markdown Info: Including markdown document "ty.markdown.in" on input lin
+e 96.
+
+(./_markdown_ty/676e881e79a88c9ec84cb927b59effa5.md.tex)
+\openout5 = ty.markdown.in
+
+Package markdown Info: Buffering markdown input into the temporary input file "t
+y.markdown.in" and scanning for the closing token sequence "\end{markdown}" on i
+nput line 98.
+Package markdown Info: The ending token sequence was found on input line 100.
+Package markdown Info: Including markdown document "ty.markdown.in" on input lin
+e 100.
+
+(./_markdown_ty/b99309aa603dd599ec28964c71a00a3d.md.tex)
+\openout5 = ty.markdown.in
+
+Package markdown Info: Buffering markdown input into the temporary input file "t
+y.markdown.in" and scanning for the closing token sequence "\end{markdown}" on i
+nput line 102.
+Package markdown Info: The ending token sequence was found on input line 104.
+Package markdown Info: Including markdown document "ty.markdown.in" on input lin
+e 104.
+
+(./_markdown_ty/dcc4abf0add105923e154399c421fe08.md.tex)
+\openout5 = ty.markdown.in
+
+Package markdown Info: Buffering markdown input into the temporary input file "t
+y.markdown.in" and scanning for the closing token sequence "\end{markdown}" on i
+nput line 106.
+Package markdown Info: The ending token sequence was found on input line 108.
+Package markdown Info: Including markdown document "ty.markdown.in" on input lin
+e 108.
+
+(./_markdown_ty/d57d0d0912670ee84a9e14cfcef80b8e.md.tex)
+\openout5 = ty.markdown.in
+
+Package markdown Info: Buffering markdown input into the temporary input file "t
+y.markdown.in" and scanning for the closing token sequence "\end{markdown}" on i
+nput line 110.
+Package markdown Info: The ending token sequence was found on input line 112.
+Package markdown Info: Including markdown document "ty.markdown.in" on input lin
+e 112.
+
+(./_markdown_ty/1c47219c1e4578e97d444b3bb999f6eb.md.tex)
+\openout5 = ty.markdown.in
+
+Package markdown Info: Buffering markdown input into the temporary input file "t
+y.markdown.in" and scanning for the closing token sequence "\end{markdown}" on i
+nput line 114.
+Package markdown Info: The ending token sequence was found on input line 116.
+Package markdown Info: Including markdown document "ty.markdown.in" on input lin
+e 116.
+
+(./_markdown_ty/ca3e33e9c716c7ad6405a18182e28424.md.tex)
+\openout5 = ty.markdown.in
+
+Package markdown Info: Buffering markdown input into the temporary input file "t
+y.markdown.in" and scanning for the closing token sequence "\end{markdown}" on i
+nput line 118.
+Package markdown Info: The ending token sequence was found on input line 120.
+Package markdown Info: Including markdown document "ty.markdown.in" on input lin
+e 120.
+
+(./_markdown_ty/8cdbc791dcb901548408b40ed725f548.md.tex)
+\openout5 = ty.markdown.in
+
+Package markdown Info: Buffering markdown input into the temporary input file "t
+y.markdown.in" and scanning for the closing token sequence "\end{markdown}" on i
+nput line 122.
+Package markdown Info: The ending token sequence was found on input line 124.
+Package markdown Info: Including markdown document "ty.markdown.in" on input lin
+e 124.
+
+(./_markdown_ty/fd912b100c5bdec59c28565ab4d974ba.md.tex)
+\openout5 = ty.markdown.in
+
+Package markdown Info: Buffering markdown input into the temporary input file "t
+y.markdown.in" and scanning for the closing token sequence "\end{markdown}" on i
+nput line 126.
+Package markdown Info: The ending token sequence was found on input line 128.
+Package markdown Info: Including markdown document "ty.markdown.in" on input lin
+e 128.
+
+(./_markdown_ty/3b4bb78fdaf11c853271a0896f294979.md.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 1--130
 
  []
 
 [3
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 73--141
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--210
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 211--279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--348
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 349--417
-
- []
-
-[6] [7]
+Missing character: There is no μ (U+03BC) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no μ (U+03BC) in font [lmroman10-regular]:+tlig;!
+] [4]
 Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--488
+\openout5 = ty.markdown.in
+Package markdown Info: Buffering markdown input into the temporary input file "t
+y.markdown.in" and scanning for the closing token sequence "\end{markdown}" on i
+nput line 134.
+Package markdown Info: The ending token sequence was found on input line 136.
+Package markdown Info: Including markdown document "ty.markdown.in" on input lin
+e 136.
+(./_markdown_ty/bab724b47228142db8a4bd7d4b4ba80a.md.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+[]|\TU/lmr/bx/n/10.95 Pro-duc-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+[]|\TU/lmr/bx/n/10.95 Worst
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/bx/n/10.95 Limit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+[]|\TU/lmr/bx/n/10.95 Worst
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/bx/n/10.95 Limit
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 287--287
+[]|\TU/lmr/bx/n/10.95 Next Pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/bx/n/10.95 duc-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+[]|\TU/lmr/bx/n/10.95 Val-i-da-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+[]|\TU/lmr/m/n/10.95 Febux-o-stat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 Tablets 40
+ []
+
+
+Underfull \hbox (badness 4595) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 mg 80 mg
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+[]|\TU/lmr/m/n/10.95 Pr2 (Dabi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 ga-tran
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 Etex-i-late
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+[]|\TU/lmr/m/n/10.95 Pro-duc-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 Group -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 Pro-duc-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 tion-Group1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+[]|\TU/lmr/m/n/10.95 Dabi-ga-tran
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 Etex-i-late
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+[]|\TU/lmr/m/n/10.95 Dabi-ga-tran
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 o-stat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 Tablets
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+[]|\TU/lmr/m/n/10.95 Pro-duc-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 Group -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 Pro-duc-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 tion-Group1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+[]|\TU/lmr/m/n/10.95 Telmis-ar-tan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 Tablets 20
+ []
+
+
+Underfull \hbox (badness 4595) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 mg 40 mg
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 and 80 mg
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+[]|\TU/lmr/m/n/10.95 Pr4 (Ro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 su-vas-tatin
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 Cal-cium
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 Tablets 5
+ []
+
+
+Underfull \hbox (badness 4595) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 mg 10 mg
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 20 mg and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+[]|\TU/lmr/m/n/10.95 Pro-duc-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 Group -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 Pro-duc-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 tion-Group1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+[]|\TU/lmr/m/n/10.95 Ro-su-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 vas-tatin
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 Cal-cium
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 Tablets 5
+ []
+
+
+Underfull \hbox (badness 4595) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 mg 10 mg
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 20 mg and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+[]|\TU/lmr/m/n/10.95 Ro-su-vas-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 ar-tan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 Tablets
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+[]|\TU/lmr/m/n/10.95 Pro-duc-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 Group -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 Pro-duc-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 tion-Group1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+[]|\TU/lmr/m/n/10.95 Pre-ga-balin
+ []
+
+
+Underfull \hbox (badness 4595) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 mg 50 mg
+ []
+
+
+Underfull \hbox (badness 2922) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 75 mg 100
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+[]|\TU/lmr/m/n/10.95 Pr4 (Ro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 su-vas-tatin
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 Cal-cium
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 Tablets 5
+ []
+
+
+Underfull \hbox (badness 4595) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 mg 10 mg
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 20 mg and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+[]|\TU/lmr/m/n/10.95 Test Prod-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+[]|\TU/lmr/m/n/10.95 Pr2 (Dabi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 ga-tran
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+\TU/lmr/m/n/10.95 Etex-i-late
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--289
 
  []
 
-[8
+[5
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 489--557
+Overfull \vbox (100.62465pt too high) has occurred while \output is active []
+
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+[]|\TU/lmr/bx/n/10.95 Clean-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\TU/lmr/bx/n/10.95 tion (Prod-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+[]|\TU/lmr/bx/n/10.95 Worst Limit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+[]|\TU/lmr/bx/n/10.95 Worst Limit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+[]|\TU/lmr/m/n/10.95 Scoop
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+[]|\TU/lmr/m/n/10.95 Methanol
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\TU/lmr/m/n/10.95 Etex-i-late Cap-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+[]|\TU/lmr/m/n/10.95 Scoop
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+[]|\TU/lmr/m/n/10.95 Methanol
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\TU/lmr/m/n/10.95 Etex-i-late Cap-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+[]|\TU/lmr/m/n/10.95 Iden-ti-cal-Group1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+[]|\TU/lmr/m/n/10.95 Methanol
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--364
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 558--626
-
- []
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 627--695
+Underfull \hbox (badness 10000) in paragraph at lines 365--367
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 696--764
+Underfull \hbox (badness 10000) in paragraph at lines 546--548
 
  []
 
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 765--238
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 605--607
 
  []
 
-[11] 
+[8]
+Chapter 3.
+
+\openout5 = ty.markdown.in
+Package markdown Info: Buffering markdown input into the temporary input file "t
+y.markdown.in" and scanning for the closing token sequence "\end{markdown}" on i
+nput line 608.
+Package markdown Info: The ending token sequence was found on input line 610.
+Package markdown Info: Including markdown document "ty.markdown.in" on input lin
+e 610.
+(./_markdown_ty/4daa598bf4994f7287f9d9337eafd598.md.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 1--613
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 654--656
+
+ []
+
+[9
+
+]
+Chapter 4.
+
+\openout5 = ty.markdown.in
+Package markdown Info: Buffering markdown input into the temporary input file "t
+y.markdown.in" and scanning for the closing token sequence "\end{markdown}" on i
+nput line 657.
+Package markdown Info: The ending token sequence was found on input line 659.
+Package markdown Info: Including markdown document "ty.markdown.in" on input lin
+e 659.
+(./_markdown_ty/b7c128f29ecf63b2edf97261edffabab.md.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 786--786
+[]|\TU/lmr/bx/n/10.95 Largest Daily
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 786--786
+[]|\TU/lmr/m/n/10.95 Dabi-ga-tran Etex-i-
+ []
+
+
+Underfull \hbox (badness 5374) in paragraph at lines 786--786
+\TU/lmr/m/n/10.95 late Cap-sules 75
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 786--786
+[]|\TU/lmr/m/n/10.95 Dabi-ga-tran Etex-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 786--786
+[]|\TU/lmr/m/n/10.95 Telmis-ar-tan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 786--786
+\TU/lmr/m/n/10.95 Tablets 20 mg
+ []
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 786--786
+[]|\TU/lmr/m/n/10.95 Ro-su-vas-tatin Cal-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 786--786
+[]|\TU/lmr/m/n/10.95 Oily So-lu-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 786--786
+[]|\TU/lmr/m/n/10.95 Pre-ga-balin Cap-
+ []
+
+
+Underfull \hbox (badness 5446) in paragraph at lines 880--880
+[]|\TU/lmr/bx/n/10.95 Min Ther-a-peu-
+ []
+
+
+Underfull \hbox (badness 1983) in paragraph at lines 880--880
+[]|\TU/lmr/bx/n/10.95 Max Ther-a-peu-
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 880--880
+[]|\TU/lmr/m/n/10.95 Dabi-ga-tran Etex-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--882
+
+ []
+
+[10
+
+] [11]
+Chapter 5.
+
+\openout5 = ty.markdown.in
+Package markdown Info: Buffering markdown input into the temporary input file "t
+y.markdown.in" and scanning for the closing token sequence "\end{markdown}" on i
+nput line 883.
+Package markdown Info: The ending token sequence was found on input line 885.
+Package markdown Info: Including markdown document "ty.markdown.in" on input lin
+e 885.
+(./_markdown_ty/6cc12df0a33c632a397394ffe9ce7834.md.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 911--911
+[]|\TU/lmr/bx/n/10.95 Equip-ment Group
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--998
+
+ []
+
+[12
+
+]
+Chapter 6.
+
+\openout5 = ty.markdown.in
+Package markdown Info: Buffering markdown input into the temporary input file "t
+y.markdown.in" and scanning for the closing token sequence "\end{markdown}" on i
+nput line 999.
+Package markdown Info: The ending token sequence was found on input line 1001.
+Package markdown Info: Including markdown document "ty.markdown.in" on input lin
+e 1001.
+(./_markdown_ty/2b1a1c549afb4916c904f895eb4bc607.md.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 1082--1082
+[]|\TU/lmr/bx/n/10.95 <<eqOrE-q-Group-String>>
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1082--1082
+[]|\TU/lmr/bx/n/10.95 <<eqOrE-q-Group-String>>
+ []
+
+
+Overfull \hbox (121.22852pt too wide) in paragraph at lines 1082--1082
+[]|\TU/lmr/m/n/10.95 DAPR009,DAWH001,DEPR022,DEPR023,DEPR024| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1082--1082
+[]|\TU/lmr/m/n/10.95 Ro-su-vas-tatin Cal-cium
+ []
+
+
+Overfull \hbox (121.22852pt too wide) in paragraph at lines 1082--1082
+[]|\TU/lmr/m/n/10.95 DAPR009,DAWH001,DEPR022,DEPR023,DEPR024| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1084
+
+ []
+
+[13
+
+]
+Chapter 7.
+
+\openout5 = ty.markdown.in
+Package markdown Info: Buffering markdown input into the temporary input file "t
+y.markdown.in" and scanning for the closing token sequence "\end{markdown}" on i
+nput line 1085.
+Package markdown Info: The ending token sequence was found on input line 1087.
+Package markdown Info: Including markdown document "ty.markdown.in" on input lin
+e 1087.
+(./_markdown_ty/cfe32869452f2285a4e88e2326e47d52.md.tex)
+Underfull \hbox (badness 6944) in paragraph at lines 1168--1168
+[]|\TU/lmr/m/n/10.95 Body weight (for LD50
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1168--1168
+[]|\TU/lmr/m/n/10.95 In-di-rect Sur-face Swab
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1168--1168
+[]|\TU/lmr/m/n/10.95 ind_swab_chem-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1168--1168
+[]|\TU/lmr/m/n/10.95 ind_swab_de-ter-
+ []
+
+
+Underfull \hbox (badness 5050) in paragraph at lines 1168--1168
+[]|\TU/lmr/m/n/10.95 The fre-quency at which
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--272
+
+ []
+
+
 AED: lastpage setting LastPage
-[12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 239.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 239.
+[14
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 273.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 273.
  (./ty.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 239.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 239.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 273.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 273.
 Package rerunfilecheck Info: File `ty.out' has not changed.
-(rerunfilecheck)             Checksum: 558C69725AB94C460BE57F152453C46B;1338.
+(rerunfilecheck)             Checksum: 439E8AAB97FF998CA5581BE634336BCB;718.
 )
 
 Here is how much of LuaTeX's memory you used:
- 13436 strings out of 494413
+ 15486 strings out of 494413
  125171,383344 words of node,token memory allocated
- 382 words of node memory still in use:
-   2 hlist, 1 vlist, 1 rule, 2 glue, 4 attribute, 49 glue_spec, 4 attribute_list
+ 422 words of node memory still in use:
+   2 hlist, 1 vlist, 1 rule, 2 glue, 4 attribute, 57 glue_spec, 4 attribute_list
 , 2 write nodes
-   avail lists: 1:1,2:492,3:189,4:60,5:82,6:77,7:1719,8:304,9:351,10:6,11:59
- 17112 multiletter control sequences out of 65536+600000
- 41 fonts using 2826639 bytes
- 40i,11n,43p,1004b,365s stack positions out of 5000i,500n,10000p,200000b,100000s
+   avail lists: 2:953,3:431,4:42,5:223,6:199,7:3731,8:692,9:848,10:14,11:275
+ 18815 multiletter control sequences out of 65536+600000
+ 38 fonts using 2848631 bytes
+ 40i,11n,57p,1004b,365s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-</usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.o
-tf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman17-regula
-r.otf>
-Output written on ty.pdf (13 pages, 36407 bytes).
+</usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf>
+</usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.o
+tf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman12-regula
+r.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman17-reg
+ular.otf>
+Output written on ty.pdf (15 pages, 53544 bytes).
 
-PDF statistics: 178 PDF objects out of 1000 (max. 8388607)
- 152 compressed objects within 2 object streams
+PDF statistics: 184 PDF objects out of 1000 (max. 8388607)
+ 150 compressed objects within 2 object streams
  31 named destinations out of 1000 (max. 131072)
- 113 words of extra memory for PDF output out of 10000 (max. 100000000)
+ 97 words of extra memory for PDF output out of 10000 (max. 100000000)
 

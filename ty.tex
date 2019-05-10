@@ -1,4 +1,4 @@
-\documentclass[a4paper,12pt]{report}
+\documentclass[a4paper,11pt]{report}
 \usepackage[english]{babel}
 \usepackage{luacode}
 
@@ -69,7 +69,7 @@ end
 
 local socket = require("socket")
 local json = json_parser()
-local file = io.open("sample.json")
+local file = io.open("sample-true.json")
 local start = socket.gettime()
 tab = json.parse(file:read("*all"))
 texio.write_nl("Time passed parsing JSON: " .. socket.gettime() - start .. " s\\string\n")
@@ -81,6 +81,11 @@ local function isempty(s)
   return s == nil or s == ''
 end
 
+function escape(s)
+	es = string.gsub(s,"_","\\_")
+	es = string.gsub(es,"&","\\&")
+	return es
+end
 
 function printTable(kkk)
     local column_count = 0
@@ -93,14 +98,15 @@ function printTable(kkk)
     col_schema = col_schema .. "|"
     for _ in ipairs(kkk["columns"][1]["values"]) do row_count = row_count + 1 end
     if not isempty(kkk.title) then
-        tex.print("\string\\textbf{" .. kkk.title .."}")
+    	local title = escape(kkk.title)
+        tex.print("\string\\textbf{" .. title .."}")
         tex.print("\\\\[0.1in]")
     end
     tex.print("\string\\begin{tabularx}{\\linewidth}{"  .. col_schema ..  "}")
     tex.print("\\hline")
     for ci, c in ipairs(kkk["columns"]) do
-        local c_name = string.gsub(c.name, "&","\\&")
-        tex.print(c_name)
+        local c_name = escape(c.name)
+        tex.print("\string\\textbf{" .. c_name .."}")
         if ci < column_count then
             tex.print(" & ")
         end
@@ -112,7 +118,7 @@ function printTable(kkk)
         local c_c = 1
         while c_c <= column_count do
             local row_val = kkk["columns"][c_c]["values"][i]
-            row_val = string.gsub(row_val, "&", "\\&")
+            row_val = escape(row_val)
             tex.print(row_val)
             if c_c < column_count then
                 tex.print(" & ")
@@ -127,23 +133,53 @@ function printTable(kkk)
     tex.print("\\\\[0.1in]")
 end
 
+function printList(l)
+    if not isempty(l.values) then
+        tex.print("\\begin{itemize}")
+        for li, lv in ipairs(l.values) do
+            tex.print("\string\\item ".. lv .."")
+        end
+        tex.print("\\end{itemize}")
+    end
+end
+
+function printLine(l)
+    if not isempty(l.line) then
+        local line = escape(l.line)
+        tex.print("\\begin{markdown}")
+        tex.print(line)
+        tex.print("\\end{markdown}")
+        tex.print("\string\\newline")
+    end
+end
+
 function renderSections(tab)
 	for i,k in ipairs(tab['tableOfContents']) do
 		 local sec_start = socket.gettime()
 		 tex.print ("\string\\chapter{" .. k.section.title .. "}")
-		 tex.print("section text here")
+		 --tex.print("section text here")
+         if not isempty(k.section.values) then
+            for svi, sv in ipairs(k.section.values) do
+                if not isempty(sv.type) then
+                    if sv.type == "text" then
+                        printLine(sv)
+                    elseif sv.type == "list" then
+                        printList(sv)
+                    elseif sv.type == "table" then
+                       printTable(sv)
+                    end
+                end
+            end
+         end
 		 for ii,kk in ipairs(k["subsection"]) do
 		 	if not isempty(kk.title) then
                     tex.print ("\string\\section{" .. kk.title .. "}")
-                    tex.print ("some text here")
+                    tex.print ("cription")
                     tex.print("\string\\newline")
                     for iii, kkk in ipairs(kk["content"]) do
                         if not isempty(kkk['type']) then
                             if kkk['type'] == "text" then
-                                if not isempty(kkk["line"]) then
-                                    tex.print(kkk["line"])
-                                    tex.print("\string\\newline")
-                                end
+                                printLine(kkk)
                             elseif kkk["type"] == "table" then
                                 printTable(kkk)
                             end
@@ -154,10 +190,7 @@ function renderSections(tab)
                                     local kks_type = kks.content.type
                                     if not isempty(kks_type) then
                                         if kks_type == "text" then
-                                            if not isempty(kks.content.line) then
-                                                tex.print(kks.content.line)
-                                                tex.print("\string\\newline")
-                                            end
+                                            printLine(kks.content)
                                         elseif kks_type == "table" then
                                             printTable(kks.content)
                                         end
@@ -174,6 +207,7 @@ end
 
 
 
+
 \end{luacode}
 
 \title{\directlua{tex.print(tab['documentName'])}}
@@ -183,9 +217,11 @@ end
 \usepackage{lastpage}
 \usepackage{tabularx}
 %\usepackage[extreme]{savetrees}
-\usepackage[landscape, margin=1in]{geometry}
+\usepackage[landscape, margin=0.8in]{geometry}
 \usepackage[yyyymmdd,hhmmss]{datetime}
 \usepackage{hyperref}
+\usepackage{markdown}
+\usepackage{longtable}
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
@@ -207,8 +243,6 @@ end
 \rfoot{\thepage\ of \pageref{LastPage}}
 \cfoot{}
 \renewcommand*\contentsname{TABLE OF CONTENTS}
-
-
 \begin{document}
 \maketitle
 

@@ -1,9 +1,26 @@
-\documentclass[a4paper,12pt]{report}
-\usepackage[english]{babel}
-
+\documentclass{article} 
+\usepackage{longtable}
+\usepackage{caption}
 \begin{document}
-\begin{itemize}
-  \item The individual entries are indicated with a black dot, a so-called bullet.
-  \item The text in the entries may be of any length.
-\end{itemize}
+
+\begin{table}
+\centering
+\caption{With \texttt{table} and \texttt{tabular} environments}\label{tab:a}
+\begin{tabular}{ccc}
+\hline
+H1 & H2 & H3 \\
+\hline
+123 & 456 & 789 \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{longtable}{ccc}
+\hline
+H1 & H2 & H3 \\
+\hline
+H1 & H2 & H3 \\
+\hline
+\end{longtable}
+
 \end{document}
